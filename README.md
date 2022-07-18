@@ -1,5 +1,5 @@
-# go_restapi
-learn sturcture of rest api.
+# go_clean
+go_clean for learn clean architecture and restapi in one project.
 
 ## สิ่งที่มีใน Example นี้
 
