@@ -1,13 +1,11 @@
 package main
 
 import (
-	"go_clean/Mqtt"
-	"go_clean/RestApi"
+	"go_clean/App/Layer/Framework/Router"
 )
 
-var err error
-
 func main() {
-	defer RestApi.Server()
-	defer Mqtt.Server()
+	// config.ReadConfig()
+
+	defer Router.Run()
 }
