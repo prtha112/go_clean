@@ -1,11 +1,9 @@
 package main
 
-import (
-	"go_clean/App/Layer/Framework/Router"
-)
+import "go_clean/App/Layer/Framework/Gin"
 
 func main() {
 	// config.ReadConfig()
 
-	defer Router.Run()
+	defer Gin.Run()
 }
